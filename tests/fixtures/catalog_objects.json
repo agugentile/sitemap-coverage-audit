@@ -1,0 +1,5 @@
+[
+  { "url": "https://example.com/", "name": "Home", "interval_seconds": 60 },
+  { "url": "https://example.com/pricing", "name": "Pricing" },
+  { "url": "https://example.com/old-page", "name": "Old page" }
+]

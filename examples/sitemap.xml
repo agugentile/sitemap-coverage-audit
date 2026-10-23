@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  A sitemap index for trying the tool offline. The two child sitemaps are served by the local
+  demo server (see the README), so they point at localhost. The page URLs inside them use
+  the example.com names a real site would have.
+-->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>http://localhost:8765/sitemap-pages.xml</loc></sitemap>
+  <sitemap><loc>http://localhost:8765/sitemap-blog.xml</loc></sitemap>
+</sitemapindex>

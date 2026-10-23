@@ -1,0 +1,54 @@
+[project]
+name = "sitemap-coverage-audit"
+version = "0.1.0"
+description = "Find the pages your monitoring list does not cover, by diffing a sitemap against a monitoring catalog."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Augusto Gentile" }]
+keywords = ["sitemap", "monitoring", "uptime", "coverage", "audit", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: System :: Monitoring",
+]
+dependencies = [
+    "httpx>=0.27",
+    "lxml>=5.0",
+    "pydantic>=2.6",
+]
+
+[project.scripts]
+sitemap-audit = "sitemap_audit.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "respx>=0.21",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sitemap_audit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "C4", "PT", "RUF"]

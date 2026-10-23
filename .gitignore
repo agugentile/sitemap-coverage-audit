@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local output from running the tool
+/proposed*.json
+/report.md
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/

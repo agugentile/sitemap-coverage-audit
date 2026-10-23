@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A plain sitemap with a few URL spellings that should normalise to one form. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/precios"/>
+  </url>
+  <url>
+    <loc>https://example.com/about/</loc>
+    <image:image>
+      <image:loc>https://example.com/images/team.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>  https://example.com/contact?utm_source=newsletter  </loc>
+  </url>
+</urlset>

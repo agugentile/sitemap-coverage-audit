@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.example.com/",
+    "name": "Home",
+    "interval_seconds": 60
+  },
+  {
+    "url": "https://www.example.com/pricing",
+    "name": "Pricing",
+    "interval_seconds": 60
+  },
+  {
+    "url": "https://www.example.com/about",
+    "name": "About",
+    "interval_seconds": 300
+  },
+  {
+    "url": "https://www.example.com/contact/",
+    "name": "Contact",
+    "interval_seconds": 300
+  },
+  {
+    "url": "https://www.example.com/careers",
+    "name": "Careers",
+    "interval_seconds": 300
+  },
+  {
+    "url": "https://www.example.com/blog",
+    "name": "Blog index",
+    "interval_seconds": 300
+  },
+  {
+    "url": "https://www.example.com/blog/launch-notes",
+    "name": "Launch notes",
+    "interval_seconds": 300
+  },
+  {
+    "url": "https://www.example.com/old-promo",
+    "name": "Old promo",
+    "interval_seconds": 300
+  },
+  {
+    "url": "https://www.example.com/legacy/faq",
+    "name": "Legacy FAQ",
+    "interval_seconds": 300
+  }
+]

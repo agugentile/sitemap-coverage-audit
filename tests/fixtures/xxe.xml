@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlset [
+  <!ENTITY secret SYSTEM "file:///etc/passwd">
+  <!ENTITY local "injected">
+]>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/&secret;</loc></url>
+  <url><loc>https://example.com/&local;</loc></url>
+  <url><loc>https://example.com/safe</loc></url>
+</urlset>

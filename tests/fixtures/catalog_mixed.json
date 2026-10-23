@@ -1,0 +1,4 @@
+[
+  "https://example.com/pricing",
+  { "url": "https://example.com/about", "name": "About" }
+]
