@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 license = "MIT"
 license-files = ["LICENSE"]
 authors = [{ name = "Augusto Gentile" }]
+urls = { Homepage = "https://github.com/agugentile/sitemap-coverage-audit" }
 keywords = ["sitemap", "monitoring", "uptime", "coverage", "audit", "cli"]
 classifiers = [
     "Development Status :: 4 - Beta",

@@ -37,7 +37,8 @@ file, and it refuses to overwrite a file that already exists.
 You need Python 3.12 or newer. The project uses [uv](https://docs.astral.sh/uv/).
 
 ```bash
-# from a clone of this repository
+git clone https://github.com/agugentile/sitemap-coverage-audit.git
+cd sitemap-coverage-audit
 uv sync
 uv run sitemap-audit --help
 
